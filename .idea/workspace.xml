@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.9.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="34YjHV3NbmYIgbLaP23gnjbQugd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.LangChainApplication.executor": "Run",
+    "JUnit.AIServiceTest.test.executor": "Run",
+    "JUnit.AIServiceTest.test1.executor": "Run",
+    "JUnit.AIServiceTest.test2.executor": "Run",
+    "JUnit.AIServiceTest.test3.executor": "Run",
+    "JUnit.AIServiceTest.testChatMemory5.executor": "Run",
+    "JUnit.AIServiceTest.testChatMemory6.executor": "Run",
+    "JUnit.AppointmentTest.test.executor": "Run",
+    "JUnit.AppointmentTest.test1.executor": "Run",
+    "JUnit.ChatMemoryTest.test1.executor": "Run",
+    "JUnit.LangChainTest.test.executor": "Run",
+    "JUnit.LangChainTest.test1.executor": "Run",
+    "JUnit.LangChainTest.test3.executor": "Run",
+    "JUnit.LangChainTest.test4.executor": "Run",
+    "JUnit.MongoTest.test.executor": "Run",
+    "JUnit.PostgresTest.test.executor": "Run",
+    "JUnit.PromptTest.test.executor": "Run",
+    "JUnit.PromptTest.testMultiV.executor": "Run",
+    "JUnit.PromptTest.testV.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.LangChainApplication.executor": "Debug",
+    "last_opened_file_path": "D:/javaproject/springai/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mongo",
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaproject\springai\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ihteima.assistant" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppointmentTest.test">
+    <configuration name="LangChainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.LangChainApplication" />
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.AppointmentTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.AppointmentTest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromptTest.testMultiV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.PromptTest" />
+      <option name="METHOD_NAME" value="testMultiV" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromptTest.testV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.PromptTest" />
+      <option name="METHOD_NAME" value="testV" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppointmentTest.test" />
+        <item itemvalue="JUnit.AppointmentTest.test1" />
+        <item itemvalue="Application.LangChainApplication" />
+        <item itemvalue="JUnit.PromptTest.testMultiV" />
+        <item itemvalue="JUnit.PromptTest.testV" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="" />
+      <created>1761397312672</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761397312672</updated>
+      <workItem from="1761397313958" duration="5242000" />
+      <workItem from="1761403480006" duration="6430000" />
+      <workItem from="1761456551740" duration="3093000" />
+      <workItem from="1761569141898" duration="444000" />
+      <workItem from="1761573037401" duration="1045000" />
+      <workItem from="1761620026149" duration="987000" />
+      <workItem from="1761622503011" duration="830000" />
+      <workItem from="1761623358998" duration="430000" />
+      <workItem from="1761623836488" duration="308000" />
+      <workItem from="1761624166015" duration="20868000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
