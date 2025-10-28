@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="" />
+    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="project init">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ihteima/RAGTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +24,25 @@
       </list>
     </option>
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MeetPerfect"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MeetPerfect/AIxiaozhi.git",
+    "accountId": "fe0f7719-5ced-4e6d-b7e7-4d453b8a45a6"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -65,7 +86,9 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.LangChainApplication.executor": "Debug",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "D:/javaproject/springai/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -91,7 +114,7 @@
       <recent name="com.ihteima.assistant" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppointmentTest.test">
+  <component name="RunManager" selected="JUnit.RAGTest.testParsePDF">
     <configuration name="LangChainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ihteima.LangChainApplication" />
       <module name="springai" />
@@ -153,7 +176,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromptTest.testV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RAGTest.testParsePDF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springai" />
       <extension name="coverage">
         <pattern>
@@ -162,8 +185,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ihteima" />
-      <option name="MAIN_CLASS_NAME" value="com.ihteima.PromptTest" />
-      <option name="METHOD_NAME" value="testV" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.RAGTest" />
+      <option name="METHOD_NAME" value="testParsePDF" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RAGTest.testParsePDF" />
+        <item itemvalue="Application.LangChainApplication" />
         <item itemvalue="JUnit.AppointmentTest.test" />
         <item itemvalue="JUnit.AppointmentTest.test1" />
-        <item itemvalue="Application.LangChainApplication" />
         <item itemvalue="JUnit.PromptTest.testMultiV" />
-        <item itemvalue="JUnit.PromptTest.testV" />
       </list>
     </recent_temporary>
   </component>
@@ -204,10 +227,24 @@
       <workItem from="1761623358998" duration="430000" />
       <workItem from="1761623836488" duration="308000" />
       <workItem from="1761624166015" duration="20868000" />
+      <workItem from="1761656806909" duration="2278000" />
     </task>
+    <task id="LOCAL-00001" summary="project init">
+      <option name="closed" value="true" />
+      <created>1761657119564</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761657119564</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project init" />
+    <option name="LAST_COMMIT_MESSAGE" value="project init" />
   </component>
 </project>
