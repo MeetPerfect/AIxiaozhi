@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import reactor.core.publisher.Flux;
 
 /**
  * ClassName: XiaozhiController
@@ -28,8 +29,8 @@ public class XiaozhiController {
     private XiaozhiAgent xiaozhiAgent;
     
     @Operation(summary = "小智对话功能")
-    @PostMapping("/chat")
-    public String chat(@RequestBody ChatForm chatForm) {
+    @PostMapping(value = "/chat", produces = "text/stream;charset=utf-8")
+    public Flux<String> chat(@RequestBody ChatForm chatForm) {
         
         return xiaozhiAgent.chat(chatForm.getMemoryId(), chatForm.getMessage());
     }

@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="Test Embedding">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/config/EmbeddingStoreConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="整合向量数据库">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/config/XiaozhiAgentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/config/XiaozhiAgentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ihteima/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ihteima/EmbeddingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/controller/XiaozhiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/controller/XiaozhiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +236,7 @@
       <workItem from="1761623836488" duration="308000" />
       <workItem from="1761624166015" duration="20868000" />
       <workItem from="1761656806909" duration="5319000" />
-      <workItem from="1761662377432" duration="644000" />
+      <workItem from="1761662377432" duration="1030000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <option name="closed" value="true" />
@@ -272,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761662105301</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="整合向量数据库">
+      <option name="closed" value="true" />
+      <created>1761663079168</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761663079168</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +289,7 @@
     <MESSAGE value="RAGTest" />
     <MESSAGE value="Document and Token Test" />
     <MESSAGE value="Test Embedding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Embedding" />
+    <MESSAGE value="整合向量数据库" />
+    <option name="LAST_COMMIT_MESSAGE" value="整合向量数据库" />
   </component>
 </project>
