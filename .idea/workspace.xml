@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="Document and Token Test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ihteima/EmbeddingTest.java" afterDir="false" />
+    <list default="true" id="8899fecf-5fff-4b3a-9d31-b9948eb2f0b1" name="Changes" comment="Test Embedding">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/config/EmbeddingStoreConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/assistant/XiaozhiAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/config/XiaozhiAgentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/config/XiaozhiAgentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ihteima/tools/AppointmentTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ihteima/tools/AppointmentTools.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ihteima/EmbeddingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ihteima/EmbeddingTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MeetPerfect"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MeetPerfect&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MeetPerfect/AIxiaozhi.git",
-    "accountId": "fe0f7719-5ced-4e6d-b7e7-4d453b8a45a6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MeetPerfect/AIxiaozhi.git&quot;,
+    &quot;accountId&quot;: &quot;fe0f7719-5ced-4e6d-b7e7-4d453b8a45a6&quot;
   }
-}]]></component>
+}</component>
   <component name="KubernetesApiPersistence">{}</component>
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
@@ -72,7 +71,10 @@
     "JUnit.AppointmentTest.test.executor": "Run",
     "JUnit.AppointmentTest.test1.executor": "Run",
     "JUnit.ChatMemoryTest.test1.executor": "Run",
+    "JUnit.EmbeddingTest.embeddingSearch.executor": "Run",
     "JUnit.EmbeddingTest.testEmbeddingModel.executor": "Run",
+    "JUnit.EmbeddingTest.testPineconeEmbedding.executor": "Run",
+    "JUnit.EmbeddingTest.testUploadKnowledgeLibrary.executor": "Run",
     "JUnit.LangChainTest.test.executor": "Run",
     "JUnit.LangChainTest.test1.executor": "Run",
     "JUnit.LangChainTest.test3.executor": "Run",
@@ -90,6 +92,7 @@
     "RequestMappingsPanelWidth0": "75",
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.LangChainApplication.executor": "Debug",
     "git-widget-placeholder": "master",
@@ -118,21 +121,8 @@
       <recent name="com.ihteima.assistant" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmbeddingTest.testEmbeddingModel">
-    <configuration name="LangChainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ihteima.LangChainApplication" />
-      <module name="springai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ihteima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppointmentTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmbeddingTest.testUploadKnowledgeLibrary">
+    <configuration name="EmbeddingTest.embeddingSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springai" />
       <extension name="coverage">
         <pattern>
@@ -141,24 +131,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ihteima" />
-      <option name="MAIN_CLASS_NAME" value="com.ihteima.AppointmentTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppointmentTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springai" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ihteima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ihteima" />
-      <option name="MAIN_CLASS_NAME" value="com.ihteima.AppointmentTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.EmbeddingTest" />
+      <option name="METHOD_NAME" value="embeddingSearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,6 +149,38 @@
       <option name="PACKAGE_NAME" value="com.ihteima" />
       <option name="MAIN_CLASS_NAME" value="com.ihteima.EmbeddingTest" />
       <option name="METHOD_NAME" value="testEmbeddingModel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddingTest.testPineconeEmbedding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.EmbeddingTest" />
+      <option name="METHOD_NAME" value="testPineconeEmbedding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmbeddingTest.testUploadKnowledgeLibrary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springai" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihteima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ihteima" />
+      <option name="MAIN_CLASS_NAME" value="com.ihteima.EmbeddingTest" />
+      <option name="METHOD_NAME" value="testUploadKnowledgeLibrary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -198,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmbeddingTest.testUploadKnowledgeLibrary" />
+        <item itemvalue="JUnit.EmbeddingTest.embeddingSearch" />
+        <item itemvalue="JUnit.EmbeddingTest.testPineconeEmbedding" />
         <item itemvalue="JUnit.EmbeddingTest.testEmbeddingModel" />
         <item itemvalue="JUnit.RAGTest.testParsePDF" />
-        <item itemvalue="Application.LangChainApplication" />
-        <item itemvalue="JUnit.AppointmentTest.test" />
-        <item itemvalue="JUnit.AppointmentTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +237,8 @@
       <workItem from="1761623358998" duration="430000" />
       <workItem from="1761623836488" duration="308000" />
       <workItem from="1761624166015" duration="20868000" />
-      <workItem from="1761656806909" duration="5022000" />
+      <workItem from="1761656806909" duration="5319000" />
+      <workItem from="1761662377432" duration="644000" />
     </task>
     <task id="LOCAL-00001" summary="project init">
       <option name="closed" value="true" />
@@ -257,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761660818285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test Embedding">
+      <option name="closed" value="true" />
+      <created>1761662105301</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761662105301</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +282,7 @@
     <MESSAGE value="project init" />
     <MESSAGE value="RAGTest" />
     <MESSAGE value="Document and Token Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Document and Token Test" />
+    <MESSAGE value="Test Embedding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Embedding" />
   </component>
 </project>
